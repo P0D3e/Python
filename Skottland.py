@@ -1,0 +1,13 @@
+import time
+message = input("Input an only english sentence: ")
+message = message.replace('o', 'E')
+message = message.replace('i', 'E')
+message = message.replace('a', 'E')
+message = message.replace('u', 'E')
+message = message.replace('y', 'E')
+message = message.replace('O', 'E')
+message = message.replace('I', 'E')
+message = message.replace('A', 'E')
+message = message.replace('U', 'E')
+message = message.replace('Y', 'E')
+print(message.upper())
